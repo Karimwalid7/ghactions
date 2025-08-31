@@ -12,3 +12,9 @@ jobs:
     steps: 
       - name: print a welcome message 
         run: echo "Welcome to the fist workflow"
+
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: List repository files 
+        run: ls -la 
