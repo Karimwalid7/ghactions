@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#sc/test.sh 
+#src/test.sh 
 EXPECTED="HELLo, Test"
 OUTPUT=$(node -e "console.log(require('./src/app')('Test')")
 
